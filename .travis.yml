@@ -7,6 +7,5 @@ install:
   - sudo dpkg -i /tmp/hugo.deb 
 script:
  - echo "Deploy!!"
- - hugo
 after_success:
- - firebase deploy --project xiaoswaii-26b70 --token 1/Gfag-6Q2K6swqy2P3EKqcTh8lpWzXI1TrxWFIVcBAj5fSDMp1OnxQJG9zYM6jGkL
+ - hugo && firebase deploy --project xiaoswaii-26b70 --token 1/Gfag-6Q2K6swqy2P3EKqcTh8lpWzXI1TrxWFIVcBAj5fSDMp1OnxQJG9zYM6jGkL
