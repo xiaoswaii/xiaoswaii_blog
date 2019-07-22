@@ -1,4 +1,4 @@
-baseurl                 = "https://example.com/"
+baseurl                 = "https://xiaoswaii-26b70.firebaseapp.com/"
 DefaultContentLanguage  = "en"
 title                   = "Hugo Future Imperfect Slim"
 theme                   = "hugo-future-imperfect-slim"
@@ -8,6 +8,10 @@ disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = true
 disableLanguages        = [""]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [params]
   # Loads CSS and JavaScript files. The variable is an array so that you can load
@@ -26,14 +30,13 @@ disableLanguages        = [""]
   readingTime           = true
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "pinterest", "email"]
+  socialShare           = ["twitter", "facebook", "email"]
 
   [params.meta]
     # Sets the meta tag description
-    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
+    description         = "A Life Full of Surprise"
     # Sets the meta tag author
-    author              = "HTML5UP and Hugo"
+    author              = "Xiao Swaii"
     # If you would like to add more comprehensive favicon support passed root
     # directory favicon.ico, utlize this funtion. It is recommened to use
     # https://realfavicongenerator.net to generate your icons as that is the basis
@@ -46,29 +49,28 @@ disableLanguages        = [""]
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Future Imperfect"
+    navbarTitle         = "Xiao Swaii"
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
-    languageMenu        = true
 
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Hugo Future Imperfect Slim"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+    header                = "Xiao Swaii"
+    paragraph             = "Love Life Peace"
     rssIntro              = true
     socialIntro           = true
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
     [params.intro.pic]
-      src                 = "/img/main/logo.jpg"
+      src                 = "/img/profilepic.jpg"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
-      width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      width               = "150"
+      alt                 = "Xiao Swaii"
 
   [params.sidebar]
     about               = "test"
@@ -138,170 +140,51 @@ disableLanguages        = [""]
     identifier        = "far fa-envelope"
     weight            = 6
 
-[Languages]
-  # Each language has its own menu.
-  [Languages.en]
-    languageCode        = "en"
-    LanguageName        = "English"
-    weight              = 1
-
-  [Languages.fr]
-    languageCode        = "fr"
-    LanguageName        = "Français"
-    title               = "Hugo Future Imperfect Slim in fr"
-    description         = "Un thème de HTML5 UP, porté par Julio Pescador. Slimmed et amélioré par Patrick Collins. Multilingue par StatnMap. Propulsé par Hugo. "
-    weight              = 2
-
-    [[Languages.fr.menu.main]]
-      name              = "Accueil"
-      url               = "/"
-      identifier        = "fas fa-home"
-      weight            = 1
-
-    [[Languages.fr.menu.main]]
-      name              = "About"
-      url               = "/about/"
-      identifier        = "far fa-id-card"
-      weight            = 2
-
-    [[Languages.fr.menu.main]]
-      name              = "Blog"
-      url               = "/blog/"
-      identifier        = "far fa-newspaper"
-      weight            = 3
-
-    [[Languages.fr.menu.main]]
-      name              = "Catégories"
-      url               = "/categories/"
-      identifier        = "fas fa-sitemap"
-      weight            = 5
-
-    [[Languages.fr.menu.main]]
-      name              = "Contact"
-      url               = "/contact/"
-      identifier        = "far fa-envelope"
-      weight            = 6
-
-  [Languages.pl]
-    languageCode        = "pl"
-    LanguageName        = "Polskie"
-    title               = "Hugo przyszłość niedoskonała"
-    description         = "Motyw HTML5 UP, przeniesiony przez Julio Pescadora i wzbogacony przez Patricka Collinsa. Wielojęzyczny przez StatnMap. Zasilany przez Hugo."
-    weight              = 2
-
-    [[Languages.pl.menu.main]]
-      name              = "Home"
-      url               = "/"
-      identifier        = "fas fa-home"
-      weight            = 1
-
-    [[Languages.pl.menu.main]]
-      name              = "O mnie"
-      url               = "/about/"
-      identifier        = "far fa-id-card"
-      weight            = 2
-
-    [[Languages.pl.menu.main]]
-      name              = "Blog"
-      url               = "/blog/"
-      identifier        = "far fa-newspaper"
-      weight            = 3
-
-    [[Languages.pl.menu.main]]
-      name              = "Kategorie"
-      url               = "/categories/"
-      identifier        = "fas fa-sitemap"
-      weight            = 5
-
-    [[Languages.pl.menu.main]]
-      name              = "Kontakt"
-      url               = "/contact/"
-      identifier        = "far fa-envelope"
-      weight            = 6
-
-  [Languages.br]
-    languageCode        = "br"
-    LanguageName        = "Português"
-    title               = "Hugo Future Imperfect Slim em português"
-    description         = "Um tema do HTML5 UP, portado por Julio Pescadora e reduzido por Patrick Collins. Multilíngue por StatnMap. Feito com Hugo."
-    weight              = 4
-
-    [[Languages.br.menu.main]]
-      name              = "Início"
-      url               = "/"
-      identifier        = "fas fa-home"
-      weight            = 1
-
-    [[Languages.br.menu.main]]
-      name              = "Sobre"
-      url               = "/about/"
-      identifier        = "far fa-id-card"
-      weight            = 2
-
-    [[Languages.br.menu.main]]
-      name              = "Blog"
-      url               = "/blog/"
-      identifier        = "far fa-newspaper"
-      weight            = 3
-
-    [[Languages.br.menu.main]]
-      name              = "Categorias"
-      url               = "/categories/"
-      identifier        = "fas fa-sitemap"
-      weight            = 5
-
-    [[Languages.br.menu.main]]
-      name              = "Contato"
-      url               = "/contact/"
-      identifier        = "far fa-envelope"
-      weight            = 6
-
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
-  gitlab                = ""
-  stackoverflow         = "" # User Number
-  bitbucket             = ""
-  jsfiddle              = ""
-  codepen               = ""
+  github                = "xiaoswaii"
+  # gitlab                = ""
+  # stackoverflow         = "" # User Number
+  # jsfiddle              = ""
+  # codepen               = ""
   # Visual Art Communities
-  deviantart            = ""
-  flickr                = "example"
-  behance               = ""
-  dribbble              = ""
-  # Publishing Communities
-  wordpress             = ""
-  medium                = ""
+  # deviantart            = ""
+  # flickr                = "example"
+  # behance               = ""
+  # dribbble              = ""
+  # # Publishing Communities
+  # wordpress             = ""
+  # medium                = ""
   # Professional/Business Oriented Communities
-  linkedin              = "example"
-  linkedin_company      = "examplebusiness"
-  foursquare            = ""
-  xing                  = ""
-  slideshare            = ""
+  # linkedin              = "example"
+  # linkedin_company      = "examplebusiness"
+  # foursquare            = ""
+  # xing                  = ""
+  # slideshare            = ""
   # Social Networks
-  facebook              = "example"
-  googleplus            = ""
-  reddit                = "example"
-  quora                 = ""
-  youtube               = ""
-  vimeo                 = ""
-  whatsapp              = "" # WhatsApp Number
+  facebook              = "swaii.xiao"
+  # googleplus            = ""
+  # reddit                = "example"
+  # quora                 = ""
+  # youtube               = ""
+  # vimeo                 = ""
+  # whatsapp              = "" # WhatsApp Number
     # WeChat and QQ need testing.
-    wechat              = ""
+    # wechat              = ""
     qq                  = "" # User ID Number
   instagram             = "example"
-  tumblr                = ""
-  twitter               = "example"
-  skype                 = ""
-  snapchat              = ""
-  pinterest             = "example"
-  telegram              = "example"
-  vine                  = ""
-  googlescholar         = ""
-  orcid                 = ""
-  researchgate          = "example"
-  keybase               = "example"
-  mastodon              = "example.com/@example"
+  # tumblr                = ""
+  # twitter               = "example"
+  # skype                 = ""
+  # snapchat              = ""
+  # pinterest             = "example"
+  # telegram              = "example"
+  # vine                  = ""
+  # googlescholar         = ""
+  # orcid                 = ""
+  # researchgate          = "example"
+  # keybase               = "example"
+  # mastodon              = "example.com/@example"
