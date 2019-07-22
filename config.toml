@@ -1,6 +1,6 @@
 baseurl                 = "https://xiaoswaii-26b70.firebaseapp.com/"
 DefaultContentLanguage  = "en"
-title                   = "Hugo Future Imperfect Slim"
+title                   = "Xiao Swaii Blog"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 3
@@ -73,7 +73,7 @@ disableLanguages        = [""]
       alt                 = "Xiao Swaii"
 
   [params.sidebar]
-    about               = "test"
+    about               = "關於帥帥的我"
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar
@@ -174,8 +174,8 @@ disableLanguages        = [""]
   # whatsapp              = "" # WhatsApp Number
     # WeChat and QQ need testing.
     # wechat              = ""
-    qq                  = "" # User ID Number
-  instagram             = "example"
+    #qq                  = "" # User ID Number
+  instagram             = "xswaii_98"
   # tumblr                = ""
   # twitter               = "example"
   # skype                 = ""
