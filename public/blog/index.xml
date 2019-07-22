@@ -2,22 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Hugo Future Imperfect Slim</title>
-    <link>https://example.com/blog/</link>
+    <link>https://xiaoswaii-26b70.firebaseapp.com/blog/</link>
     <description>Recent content in Blogs on Hugo Future Imperfect Slim</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <lastBuildDate>Sat, 20 Jul 2019 14:54:38 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xiaoswaii-26b70.firebaseapp.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://example.com/blog/my-first-post/</link>
+      <title>HUGO處女作</title>
+      <link>https://xiaoswaii-26b70.firebaseapp.com/blog/hugo/</link>
       <pubDate>Sat, 20 Jul 2019 14:54:38 +0800</pubDate>
       
-      <guid>https://example.com/blog/my-first-post/</guid>
-      <description></description>
+      <guid>https://xiaoswaii-26b70.firebaseapp.com/blog/hugo/</guid>
+      <description> HUGO 前言 在前輩的介紹下，第一次使用了hugo來建置部落格。因為很早就夢寐以求有自己的部落格，但卻又不想使用wordpress之類的，希望自己能夠進行比較多的客製化。所以終於實現了
+初始化 直接來個傳送門 https://gohugo.io/getting-started/quick-start/
+遇到的小坑  根據documentation上面的 hugo server -D，原來-D是會把draft的東西一起呈現，結果推上去firebase之後發現文章不見了，把draft:true拿掉即可。  </description>
     </item>
     
   </channel>
