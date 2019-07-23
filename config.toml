@@ -8,6 +8,7 @@ disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = true
 disableLanguages        = [""]
+enableEmoji = true
 
 [taxonomies]
   category = "categories"
