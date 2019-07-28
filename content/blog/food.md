@@ -1,6 +1,7 @@
 ---
 title: "Food"
 date: 2019-07-28T17:59:03+08:00
+type: post
 catogories: ['美食'] 
 ---
 # 小弟的美食遊記
